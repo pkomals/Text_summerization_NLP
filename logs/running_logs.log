@@ -1,0 +1,346 @@
+[2025-03-26 01:31:22,233: INFO: main: TextSummaizer is starting...]
+[2025-03-27 16:05:55,672: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:05:55,672: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 10, in main
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 17, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml'
+[2025-03-27 16:19:17,025: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:19:17,027: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 10, in main
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 17, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml'
+[2025-03-27 16:24:35,077: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:24:35,079: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 10, in main
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 17, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml'
+[2025-03-27 16:28:21,191: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:28:21,192: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 10, in main
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml'
+[2025-03-27 16:30:36,738: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:30:36,742: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 10, in main
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\TextSummaizer\\config\\config.yaml'
+[2025-03-27 16:32:02,638: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:32:02,639: ERROR: main: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 10, in main
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml'
+[2025-03-27 16:37:39,136: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:37:39,137: ERROR: main: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 12, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml'
+[2025-03-27 16:39:13,727: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:39:13,729: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 12, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml'
+[2025-03-27 16:40:07,840: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:40:07,842: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 12, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml'
+[2025-03-27 16:45:00,787: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:45:00,789: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 17, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml'
+[2025-03-27 16:48:57,282: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:48:57,285: ERROR: main: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 19, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\projects\\text_summerization_nlp\\src\\config\\config.yaml'
+[2025-03-27 16:56:34,257: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:56:34,258: ERROR: main: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 19, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml'
+[2025-03-27 16:58:15,150: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:58:15,151: ERROR: main: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 19, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml'
+[2025-03-27 16:59:02,285: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:59:02,286: ERROR: main: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 16, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 34, in read_yaml
+    raise e
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\utils\common.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Projects\\Text_summerization_NLP\\src\\config\\config.yaml'
+[2025-03-27 16:59:30,103: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 16:59:30,107: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-27 16:59:30,108: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-27 16:59:30,111: INFO: common: created directory at: artifacts]
+[2025-03-27 16:59:30,114: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-27 16:59:30,115: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-27 16:59:30,116: INFO: common: created directory at: artifacts]
+[2025-03-27 16:59:30,117: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 16:59:32,243: INFO: data_ingestion: artifacts/data_ingetion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8377572
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "3aea79eaa36efc9339c42d3a61413f75f62f7e5676002d7473efbe842605ace6"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E98A:3E982:173A74:372856:67E5369E
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 11:29:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10249-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743074975.582771,VS0,VE673
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1621e5dcbab95908fc6b07e2bc7751ec571918ca
+Expires: Thu, 27 Mar 2025 11:34:35 GMT
+Source-Age: 0
+
+]
+[2025-03-27 16:59:32,247: ERROR: main: 'DataIngestion' object has no attribute 'extract_file']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 18, in <module>
+    data_ingestion.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_1_data_ingestion.py", line 14, in main
+    data_ingestion.extract_file()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'extract_file'. Did you mean: 'extract_zip_file'?
+[2025-03-27 17:00:47,967: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-27 17:00:47,969: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-27 17:00:47,970: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-27 17:00:47,970: INFO: common: created directory at: artifacts]
+[2025-03-27 17:00:47,972: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-27 17:00:47,972: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-27 17:00:47,973: INFO: common: created directory at: artifacts]
+[2025-03-27 17:00:47,974: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 17:00:48,777: INFO: data_ingestion: artifacts/data_ingetion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8377572
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "3aea79eaa36efc9339c42d3a61413f75f62f7e5676002d7473efbe842605ace6"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E98A:3E982:173A74:372856:67E5369E
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 11:30:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10221-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743075052.913466,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 87ac142b96083d9f85ee55d35dd2bc4590fab046
+Expires: Thu, 27 Mar 2025 11:35:51 GMT
+Source-Age: 77
+
+]
+[2025-03-27 17:00:49,026: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

@@ -1,0 +1,90 @@
+[2025-03-27 14:42:27,891: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:42:27,908: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:42:27,911: INFO: common: created directory at: artifacts]
+[2025-03-27 14:46:56,971: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:46:56,972: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:46:56,974: INFO: common: created directory at: artifacts]
+[2025-03-27 14:46:56,975: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:47:15,554: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:47:15,556: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:47:15,558: INFO: common: created directory at: artifacts]
+[2025-03-27 14:47:15,558: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:47:30,440: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:47:30,442: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:47:30,443: INFO: common: created directory at: artifacts]
+[2025-03-27 14:47:30,443: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:48:50,254: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:48:50,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:48:50,257: INFO: common: created directory at: artifacts]
+[2025-03-27 14:48:50,257: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:51:00,188: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:51:00,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:51:00,191: INFO: common: created directory at: artifacts]
+[2025-03-27 14:51:00,192: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:51:17,084: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:51:17,085: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:51:17,086: INFO: common: created directory at: artifacts]
+[2025-03-27 14:51:17,087: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:51:20,428: INFO: 3816824933: artifacts/data_ingetion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6A70:2EB443:A5A96:1A7D88:67E51891
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 09:21:23 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10227-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743067281.185408,VS0,VE1941
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a066c1d84021eae8bb8874aadbf9a0781326bbe8
+Expires: Thu, 27 Mar 2025 09:26:23 GMT
+Source-Age: 2
+
+]
+[2025-03-27 14:57:10,871: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:57:10,872: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:57:10,873: INFO: common: created directory at: artifacts]
+[2025-03-27 14:57:10,874: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:57:10,875: INFO: 3816824933: File already exists of size: ~ 0 KB]
+[2025-03-27 14:57:37,521: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 14:57:37,522: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 14:57:37,523: INFO: common: created directory at: artifacts]
+[2025-03-27 14:57:37,524: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-27 14:57:39,190: INFO: 3816824933: artifacts/data_ingetion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8377572
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "3aea79eaa36efc9339c42d3a61413f75f62f7e5676002d7473efbe842605ace6"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 35B8:2F90E8:13E3DB:312190:67E51A0D
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 09:27:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10223-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743067661.382368,VS0,VE861
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0947897a3d47e91970b540dfe515b09684c662e6
+Expires: Thu, 27 Mar 2025 09:32:42 GMT
+Source-Age: 1
+
+]

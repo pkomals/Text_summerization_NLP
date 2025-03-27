@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: TextSummaizer
+Version: 0.0.0
+Summary: A small python package for NLP app
+Home-page: https://github.com/pkomals/Text_summerization_NLP
+Author: pkomals
+Project-URL: Bug Tracker, https://github.com/pkomals/Text_summerization_NLP/issues
+License-File: LICENSE
+
+# Text_summerization_NLP

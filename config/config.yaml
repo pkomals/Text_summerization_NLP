@@ -1,0 +1,9 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingetion
+  source_URL: https://github.com/pkomals/Data/raw/refs/heads/main/samsum_data.zip
+  local_data_file: artifacts/data_ingetion/data.zip
+  unzip_dir: artifacts/data_ingetion
+    
