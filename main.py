@@ -1,5 +1,8 @@
 from TextSummaizer.pipeline.stage_1_data_ingestion import DataIngestionTrainigPipeline
 
+from TextSummaizer.pipeline.stage_2_data_validation import DataValidationTrainigPipeline
+
+
 from TextSummaizer.logging import logger
 from TextSummaizer.config.configuration import CONFIG_FILE_PATH
 from TextSummaizer.config.configuration import ConfigurationManager
@@ -16,6 +19,20 @@ try:
    config_manager = ConfigurationManager()
    data_ingestion = DataIngestionTrainigPipeline()
    data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+
+
+STAGE_NAME = "Data Validation stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   #print(f"🔍 CONFIG_FILE_PATH from constant: {CONFIG_FILE_PATH.resolve()}")
+   config_manager = ConfigurationManager()
+   data_validation = DataValidationTrainigPipeline()
+   data_validation.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
         logger.exception(e)

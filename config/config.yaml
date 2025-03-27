@@ -6,4 +6,10 @@ data_ingestion:
   source_URL: https://github.com/pkomals/Data/raw/refs/heads/main/samsum_data.zip
   local_data_file: artifacts/data_ingetion/data.zip
   unzip_dir: artifacts/data_ingetion
-    
+
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train","test","validation"]
