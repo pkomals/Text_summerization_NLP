@@ -8,6 +8,8 @@ src/TextSummaizer.egg-info/dependency_links.txt
 src/TextSummaizer.egg-info/top_level.txt
 src/TextSummaizer/components/__init__.py
 src/TextSummaizer/components/data_ingestion.py
+src/TextSummaizer/components/data_transformation.py
+src/TextSummaizer/components/data_validation.py
 src/TextSummaizer/config/__init__.py
 src/TextSummaizer/config/configuration.py
 src/TextSummaizer/constants/__init__.py
