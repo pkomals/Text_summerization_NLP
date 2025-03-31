@@ -6,6 +6,8 @@ from TextSummaizer.pipeline.stage_3_data_transformation import DataTransformatio
 
 from TextSummaizer.pipeline.stage_4_model_trainer import ModelTrainerTrainingPipeline
 
+from TextSummaizer.pipeline.stage_5_model_evaluation import ModelEvaluationTrainingPipeline
+
 from TextSummaizer.logging import logger
 from TextSummaizer.config.configuration import CONFIG_FILE_PATH
 from TextSummaizer.config.configuration import ConfigurationManager
@@ -57,6 +59,17 @@ try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
    model_trainer = ModelTrainerTrainingPipeline()
    model_trainer.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+STAGE_NAME = "Model Evaluation stage"
+try: 
+   logger.info(f"*******************")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   model_evaluation = ModelEvaluationTrainingPipeline()
+   model_evaluation.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
         logger.exception(e)

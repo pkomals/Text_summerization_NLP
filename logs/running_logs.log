@@ -638,3 +638,232 @@ x==========x]
 [2025-03-28 23:21:12,864: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2025-03-31 12:50:44,944: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-31 12:58:57,088: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-31 13:00:32,150: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:00:32,165: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:00:32,166: INFO: common: created directory at: artifacts]
+[2025-03-31 13:00:32,167: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-31 13:03:08,400: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:03:08,404: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:03:08,406: INFO: common: created directory at: artifacts]
+[2025-03-31 13:03:08,407: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-31 13:05:15,875: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:05:15,878: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:05:15,880: INFO: common: created directory at: artifacts]
+[2025-03-31 13:05:15,882: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-31 13:07:36,138: INFO: rouge_scorer: Using default tokenizer.]
+[2025-03-31 13:09:31,463: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:09:31,467: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:09:31,470: INFO: common: created directory at: artifacts]
+[2025-03-31 13:09:31,471: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-31 13:11:49,183: INFO: rouge_scorer: Using default tokenizer.]
+[2025-03-31 13:32:53,669: INFO: utils: Note: NumExpr detected 18 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-03-31 13:32:53,670: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-03-31 13:32:54,687: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-31 13:32:54,693: INFO: config: JAX version 0.5.2 available.]
+[2025-03-31 13:32:56,203: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-31 13:32:56,207: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:32:56,209: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:32:56,209: INFO: common: created directory at: artifacts]
+[2025-03-31 13:32:56,212: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:32:56,214: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:32:56,215: INFO: common: created directory at: artifacts]
+[2025-03-31 13:32:56,215: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-31 13:32:56,216: INFO: data_ingestion: File already exists of size: ~ 8181 KB]
+[2025-03-31 13:32:56,493: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-31 13:32:56,494: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-31 13:32:56,498: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:32:56,501: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:32:56,501: INFO: common: created directory at: artifacts]
+[2025-03-31 13:32:56,505: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:32:56,507: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:32:56,507: INFO: common: created directory at: artifacts]
+[2025-03-31 13:32:56,508: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-31 13:32:56,511: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-31 13:32:56,512: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-31 13:32:56,515: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:32:56,516: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:32:56,517: INFO: common: created directory at: artifacts]
+[2025-03-31 13:32:56,518: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-31 13:32:59,295: ERROR: main: [Errno 22] Invalid argument: 'C:/Projects/Text_summerization_NLP/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "C:\Projects\Text_summerization_NLP\main.py", line 50, in <module>
+    data_transformation.main()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\pipeline\stage_3_data_transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\projects\text_summerization_nlp\src\TextSummaizer\components\data_transformation.py", line 30, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\datasets\dataset_dict.py", line 1344, in save_to_disk
+    dataset.save_to_disk(
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\datasets\arrow_dataset.py", line 1557, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\datasets\arrow_dataset.py", line 1581, in _save_to_disk_single
+    writer = ArrowWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\datasets\arrow_writer.py", line 374, in __init__
+    self.stream = self._fs.open(path, "wb")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+        ^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\fsspec\implementations\local.py", line 197, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\fsspec\implementations\local.py", line 322, in __init__
+    self._open()
+  File "C:\Users\Komal\anaconda3\Lib\site-packages\fsspec\implementations\local.py", line 327, in _open
+    self.f = open(self.path, mode=self.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:/Projects/Text_summerization_NLP/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2025-03-31 13:34:09,299: INFO: utils: Note: NumExpr detected 18 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-03-31 13:34:09,300: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-03-31 13:34:09,730: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-31 13:34:09,736: INFO: config: JAX version 0.5.2 available.]
+[2025-03-31 13:34:10,585: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-31 13:34:10,593: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:34:10,596: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:34:10,597: INFO: common: created directory at: artifacts]
+[2025-03-31 13:34:10,600: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:34:10,602: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:34:10,603: INFO: common: created directory at: artifacts]
+[2025-03-31 13:34:10,603: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-31 13:34:12,806: INFO: data_ingestion: artifacts/data_ingetion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8377572
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "3aea79eaa36efc9339c42d3a61413f75f62f7e5676002d7473efbe842605ace6"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5D5D:3686A4:51468E:B01857:67EA4C7F
+Accept-Ranges: bytes
+Date: Mon, 31 Mar 2025 08:04:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10248-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743408256.016755,VS0,VE695
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 374cf85b3c3a87ddfd41c51c3e8ec7e329d9ca6c
+Expires: Mon, 31 Mar 2025 08:09:16 GMT
+Source-Age: 0
+
+]
+[2025-03-31 13:34:12,999: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-31 13:34:13,001: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-31 13:34:13,004: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:34:13,005: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:34:13,006: INFO: common: created directory at: artifacts]
+[2025-03-31 13:34:13,012: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:34:13,020: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:34:13,021: INFO: common: created directory at: artifacts]
+[2025-03-31 13:34:13,023: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-31 13:34:13,026: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-31 13:34:13,026: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-31 13:34:13,030: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:34:13,032: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:34:13,035: INFO: common: created directory at: artifacts]
+[2025-03-31 13:34:13,037: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-31 13:34:20,848: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-31 13:34:20,849: INFO: main: *******************]
+[2025-03-31 13:34:20,849: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-31 13:34:20,853: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 13:34:20,855: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 13:34:20,856: INFO: common: created directory at: artifacts]
+[2025-03-31 13:34:20,858: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-31 16:24:59,826: INFO: utils: Note: NumExpr detected 18 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-03-31 16:24:59,828: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-03-31 16:25:00,584: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-31 16:25:00,593: INFO: config: JAX version 0.5.2 available.]
+[2025-03-31 16:25:01,903: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-31 16:25:01,931: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 16:25:01,946: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 16:25:01,948: INFO: common: created directory at: artifacts]
+[2025-03-31 16:25:01,952: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 16:25:01,956: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 16:25:01,957: INFO: common: created directory at: artifacts]
+[2025-03-31 16:25:01,958: INFO: common: created directory at: artifacts/data_ingetion]
+[2025-03-31 16:25:04,095: INFO: data_ingestion: artifacts/data_ingetion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8377572
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "3aea79eaa36efc9339c42d3a61413f75f62f7e5676002d7473efbe842605ace6"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FDD6:3BFF60:51CBAA:D7EEA9:67EA7488
+Accept-Ranges: bytes
+Date: Mon, 31 Mar 2025 10:55:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10223-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743418507.217213,VS0,VE713
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7e0c88b3c5b4d3fe927ed84e9250904af54f6685
+Expires: Mon, 31 Mar 2025 11:00:07 GMT
+Source-Age: 0
+
+]
+[2025-03-31 16:25:04,289: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-31 16:25:04,289: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-31 16:25:04,292: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 16:25:04,294: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 16:25:04,295: INFO: common: created directory at: artifacts]
+[2025-03-31 16:25:04,298: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 16:25:04,299: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 16:25:04,301: INFO: common: created directory at: artifacts]
+[2025-03-31 16:25:04,302: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-31 16:25:04,304: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-31 16:25:04,305: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-31 16:25:04,309: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 16:25:04,312: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 16:25:04,312: INFO: common: created directory at: artifacts]
+[2025-03-31 16:25:04,314: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-31 16:25:09,309: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-31 16:25:09,310: INFO: main: *******************]
+[2025-03-31 16:25:09,310: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-31 16:25:09,315: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 16:25:09,317: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 16:25:09,318: INFO: common: created directory at: artifacts]
+[2025-03-31 16:25:09,319: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-31 17:18:33,470: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-31 17:18:33,493: INFO: main: *******************]
+[2025-03-31 17:18:33,493: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2025-03-31 17:18:33,528: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\config\config.yaml loaded successfully]
+[2025-03-31 17:18:33,539: INFO: common: yaml file: C:\Projects\Text_summerization_NLP\params.yaml loaded successfully]
+[2025-03-31 17:18:33,541: INFO: common: created directory at: artifacts]
+[2025-03-31 17:18:33,543: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-31 17:21:04,126: INFO: rouge_scorer: Using default tokenizer.]
+[2025-03-31 17:21:04,779: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
